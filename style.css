@@ -3,7 +3,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Helvetica;
+  font-family: sans-serif;
+  
   
   }
   h1{
@@ -25,13 +26,13 @@
   }
   nav a{
     margin-left: 10px;
-    background-color: aquamarine;
+    /* background-color: rgb(80, 92, 88); */
     text-decoration: none;
     border-radius: 5px;
     margin-right: 10px;
   }
   nav a:hover{
-    background-color: crimson;
+    background-color: rgb(75, 127, 134);
     cursor: pointer;
   }
   nav img{
@@ -52,11 +53,17 @@
     padding-top: 20px;
     border-color: black;
     border-radius: 5px;
+    
   }
   .container #person img{
     height: 200px;
     
 
+  }
+  #person p{
+    font-size: 13px;
+    font-style: italic;
+    
   }
   button{
     border-radius: 5px;
@@ -65,7 +72,9 @@
   }
   button a:hover{
     padding: 12px;
-    background-color: rgb(59, 28, 28);
+    background-color: rgb(221, 202, 202);
+    transition: 0.5s;
+    margin: 12px;
   }
   button a{
     padding: 10px;
