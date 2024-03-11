@@ -12,6 +12,7 @@
     font-family: monospace;
     padding-top: 10px;
     padding-bottom: 5px;
+    text-align: center;
   }
   nav{
     height: 50px;
@@ -59,10 +60,15 @@
     height: 200px;
     
 
+  }#person h4{
+    /* text-align: center; */
+    padding-bottom: 5px;
+    padding-left: 20px;
   }
   #person p{
     font-size: 13px;
     font-style: italic;
+    padding-bottom: 10px;
     
   }
   button{
