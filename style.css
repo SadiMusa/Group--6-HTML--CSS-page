@@ -12,6 +12,7 @@
     font-family: monospace;
     padding-top: 10px;
     padding-bottom: 5px;
+    text-align: center;
   }
   nav{
     height: 50px;
@@ -41,7 +42,7 @@
     border-radius: 10px;
   }
   .container{
-    background-image: url(./images/clouds.jpg);
+    /* background-image: url(./images/clouds.jpg); */
     height: 500px;
     display: flex;
     justify-content: space-around;
@@ -52,17 +53,25 @@
     margin: 10px;
     padding-top: 20px;
     border-color: black;
-    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: antiquewhite;
     
   }
+  
   .container #person img{
     height: 200px;
     
 
+  }#person h4{
+    /* text-align: center; */
+    padding-bottom: 5px;
+    padding-left: 20px;
   }
   #person p{
     font-size: 13px;
     font-style: italic;
+    padding-bottom: 10px;
+    padding-left: 7px;
     
   }
   button{
